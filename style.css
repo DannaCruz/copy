@@ -1,0 +1,41 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.books {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  color: black;
+  background: #FFA07A 5px center/3em no-repeat;
+  position: relative;
+}
+
+.books:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  font-size: 30px;
+  top: 14px;
+  left: 20px;
+  content: "\f02d";
+}
+
+.befi {
+    float: left;
+}
+
+.part b {
+  color: #F4F4F5;
+  opacity: 1;
+  font-size: 18px;
+}
